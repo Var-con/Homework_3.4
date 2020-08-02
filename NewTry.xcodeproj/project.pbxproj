@@ -13,10 +13,11 @@
 		B3B0918524D594F8008A2BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B0918424D594F8008A2BD4 /* Assets.xcassets */; };
 		B3B0918824D594F8008A2BD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B0918724D594F8008A2BD4 /* Preview Assets.xcassets */; };
 		B3B0918B24D594F8008A2BD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3B0918924D594F8008A2BD4 /* LaunchScreen.storyboard */; };
+		B3B0919324D59509008A2BD4 /* SldierFromUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B0919224D59509008A2BD4 /* SldierFromUIKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B3B0917B24D594F6008A2BD4 /* NewTry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewTry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B0917B24D594F6008A2BD4 /* Homework3.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework3.4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B0917E24D594F6008A2BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3B0918024D594F6008A2BD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B3B0918224D594F6008A2BD4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		B3B0918724D594F8008A2BD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B3B0918A24D594F8008A2BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3B0918C24D594F9008A2BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3B0919224D59509008A2BD4 /* SldierFromUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SldierFromUIKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		B3B0917C24D594F6008A2BD4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B3B0917B24D594F6008A2BD4 /* NewTry.app */,
+				B3B0917B24D594F6008A2BD4 /* Homework3.4.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,9 +58,10 @@
 		B3B0917D24D594F6008A2BD4 /* NewTry */ = {
 			isa = PBXGroup;
 			children = (
+				B3B0918224D594F6008A2BD4 /* ContentView.swift */,
+				B3B0919224D59509008A2BD4 /* SldierFromUIKit.swift */,
 				B3B0917E24D594F6008A2BD4 /* AppDelegate.swift */,
 				B3B0918024D594F6008A2BD4 /* SceneDelegate.swift */,
-				B3B0918224D594F6008A2BD4 /* ContentView.swift */,
 				B3B0918424D594F8008A2BD4 /* Assets.xcassets */,
 				B3B0918924D594F8008A2BD4 /* LaunchScreen.storyboard */,
 				B3B0918C24D594F9008A2BD4 /* Info.plist */,
@@ -92,7 +95,7 @@
 			);
 			name = NewTry;
 			productName = NewTry;
-			productReference = B3B0917B24D594F6008A2BD4 /* NewTry.app */;
+			productReference = B3B0917B24D594F6008A2BD4 /* Homework3.4.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3B0917F24D594F6008A2BD4 /* AppDelegate.swift in Sources */,
+				B3B0919324D59509008A2BD4 /* SldierFromUIKit.swift in Sources */,
 				B3B0918124D594F6008A2BD4 /* SceneDelegate.swift in Sources */,
 				B3B0918324D594F6008A2BD4 /* ContentView.swift in Sources */,
 			);
@@ -293,8 +297,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = No.NewTry;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = No.Homework3.4;
+				PRODUCT_NAME = Homework3.4;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,8 +317,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = No.NewTry;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = No.Homework3.4;
+				PRODUCT_NAME = Homework3.4;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
